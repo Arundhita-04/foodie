@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.confirmation-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.confirmation-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.order-details {
+    text-align: left;
+}
+
+.order-details h2 {
+    font-size: 20px;
+    color: #666;
+}
+
+.order-details p {
+    font-size: 16px;
+    color: #333;
+}
+
+.order-items {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.order-items h2 {
+    font-size: 20px;
+    color: #666;
+}
+
+.order-items ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-items li {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.order-footer {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #fc8019;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #e57300;
+}

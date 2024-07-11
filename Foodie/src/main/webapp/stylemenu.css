@@ -1,0 +1,72 @@
+body.menu-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+
+.menu-list {
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.restaurant {
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.restaurant img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.restaurant h3 {
+    margin: 10px 0;
+}
+
+.restaurant p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.restaurant .add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.restaurant .add-to-cart:hover {
+    background-color: #218838;
+}
+
+.restaurant:hover {
+    transform: scale(1.05);
+}
